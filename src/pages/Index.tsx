@@ -15,7 +15,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>BaajiSports – Best Online Sports &amp; Casino Gaming Platform India 2026</title>
+        <title>BaajiSports – Best Online Sports &amp; Casino Gaming Platform in India</title>
         <meta name="description" content="Play 200+ cricket, casino, slots & card games on BaajiSports. India's #1 trusted gaming platform with IPL fantasy, Teen Patti, Roulette. Join now!" />
         <link rel="canonical" href="https://baajii.live/" />
         <meta property="og:url" content="https://baajii.live/" />
