@@ -8,12 +8,6 @@
       "has": [{ "type": "host", "value": "www.baajii.live" }],
       "destination": "https://baajii.live/:path*",
       "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "india-play-hub.lovable.app" }],
-      "destination": "https://baajii.live/:path*",
-      "permanent": true
     }
   ],
   "headers": [
