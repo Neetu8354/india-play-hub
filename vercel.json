@@ -1,4 +1,6 @@
 {
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/((?!api|_next|favicon.ico|sitemap.xml|robots.txt|placeholder.svg).*)", "destination": "/index.html" }
   ],
