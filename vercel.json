@@ -4,14 +4,7 @@
   "rewrites": [
     { "source": "/((?!api|_next|favicon.ico|sitemap.xml|robots.txt|placeholder.svg).*)", "destination": "/index.html" }
   ],
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.baajii.live" }],
-      "destination": "https://baajii.live/:path*",
-      "permanent": true
-    }
-  ],
+  "redirects": [],
   "headers": [
     {
       "source": "/sitemap.xml",
