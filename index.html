@@ -11,7 +11,6 @@
     <meta name="geo.region" content="IN" />
     <meta name="geo.placename" content="India" />
     <meta name="language" content="English" />
-    <meta name="revisit-after" content="1 days" />
     <meta name="rating" content="general" />
     <meta name="distribution" content="global" />
     <link rel="canonical" href="https://baajii.live/" />
@@ -41,22 +40,32 @@
     <meta name="twitter:url" content="https://baajii.live/" />
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
 
     <!-- Structured Data: Organization -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://baajii.live/#organization",
       "name": "BaajiSports",
       "url": "https://baajii.live",
+      "logo": "https://baajii.live/logo.png",
       "description": "India's trusted sports and casino gaming platform with 200+ cricket and casino games.",
+      "foundingDate": "2024",
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "customer service",
         "availableLanguage": ["English", "Hindi"],
         "url": "https://wa.link/reddyanna_"
       },
-      "sameAs": []
+      "sameAs": [
+        "https://www.instagram.com/baajisports",
+        "https://www.facebook.com/baajisports",
+        "https://t.me/baajisports",
+        "https://twitter.com/baajisports"
+      ]
     }
     </script>
 
@@ -188,40 +197,7 @@
   </head>
 
   <body>
-    <div id="root">
-      <!-- SEO fallback content: real H1, text and <a> links visible in source before React hydrates -->
-      <header style="padding: 1rem; font-family: system-ui, sans-serif;">
-        <nav aria-label="Main navigation">
-          <a href="/">Home</a> |
-          <a href="/#cricket">Cricket Games</a> |
-          <a href="/#casino">Casino Games</a> |
-          <a href="/#promos">Promotions</a> |
-          <a href="/#howtoplay">How to Play</a> |
-          <a href="/blog">Blog</a> |
-          <a href="/#faq">FAQ</a>
-        </nav>
-      </header>
-      <main style="padding: 1rem; font-family: system-ui, sans-serif;">
-        <h1>BaajiSports – Best Online Sports &amp; Casino Gaming Platform in India</h1>
-        <p>Play 200+ cricket, casino, slots and card games on BaajiSports. India's trusted gaming platform with exciting bonuses, IPL fantasy cricket, Teen Patti, Roulette, Andar Bahar, Blackjack, online slots and more. Join via WhatsApp for instant access.</p>
-        <h2>Popular Games</h2>
-        <ul>
-          <li><a href="/#cricket">Cricket Games</a></li>
-          <li><a href="/#casino">Casino Games</a></li>
-          <li><a href="/#promos">Promotions &amp; Bonuses</a></li>
-          <li><a href="/#howtoplay">How to Play</a></li>
-        </ul>
-        <h2>Latest Blog Articles</h2>
-        <ul>
-          <li><a href="/blog/ipl-fantasy-cricket-tips-2026">IPL Fantasy Cricket Tips 2026</a></li>
-          <li><a href="/blog/best-online-casino-games-india-2026">Best Online Casino Games India 2026</a></li>
-          <li><a href="/blog/cricket-match-prediction-strategies">Cricket Match Prediction Strategies</a></li>
-          <li><a href="/blog/teen-patti-rules-strategies-beginners">Teen Patti Rules &amp; Strategies for Beginners</a></li>
-          <li><a href="/blog/roulette-guide-strategies-indian-players">Roulette Guide &amp; Strategies for Indian Players</a></li>
-          <li><a href="/blog/how-to-play-blackjack-online-india">How to Play Blackjack Online in India</a></li>
-        </ul>
-      </main>
-    </div>
+    <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
