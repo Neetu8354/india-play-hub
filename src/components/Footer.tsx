@@ -31,13 +31,13 @@ const Footer = () => {
           <div>
             <h4 className="font-heading text-sm font-semibold text-foreground mb-4">Quick Links</h4>
             <nav aria-label="Footer navigation" className="flex flex-col gap-2">
-              <a href="/#home" className="text-xs text-muted-foreground hover:text-primary transition-colors">Home</a>
-              <a href="/#cricket" className="text-xs text-muted-foreground hover:text-primary transition-colors">Cricket Games</a>
-              <a href="/#casino" className="text-xs text-muted-foreground hover:text-primary transition-colors">Casino Games</a>
-              <a href="/#promos" className="text-xs text-muted-foreground hover:text-primary transition-colors">Promotions</a>
-              <a href="/#howtoplay" className="text-xs text-muted-foreground hover:text-primary transition-colors">How to Play</a>
+              <Link to="/" className="text-xs text-muted-foreground hover:text-primary transition-colors">Home</Link>
+              <Link to="/cricket-games" className="text-xs text-muted-foreground hover:text-primary transition-colors">Cricket Games</Link>
+              <Link to="/casino-games" className="text-xs text-muted-foreground hover:text-primary transition-colors">Casino Games</Link>
+              <Link to="/promotions" className="text-xs text-muted-foreground hover:text-primary transition-colors">Promotions</Link>
+              <Link to="/how-to-play" className="text-xs text-muted-foreground hover:text-primary transition-colors">How to Play</Link>
               <Link to="/blog" className="text-xs text-muted-foreground hover:text-primary transition-colors">Blog</Link>
-              <a href="/#faq" className="text-xs text-muted-foreground hover:text-primary transition-colors">FAQ</a>
+              <Link to="/#faq" className="text-xs text-muted-foreground hover:text-primary transition-colors">FAQ</Link>
             </nav>
           </div>
 
@@ -56,8 +56,8 @@ const Footer = () => {
           <div>
             <h4 className="font-heading text-sm font-semibold text-foreground mb-4">Support</h4>
             <div className="flex flex-col gap-2">
-              <a href="/#faq" className="text-xs text-muted-foreground hover:text-primary transition-colors">FAQ</a>
-              <a href="/#howtoplay" className="text-xs text-muted-foreground hover:text-primary transition-colors">How to Play</a>
+              <Link to="/#faq" className="text-xs text-muted-foreground hover:text-primary transition-colors">FAQ</Link>
+              <Link to="/how-to-play" className="text-xs text-muted-foreground hover:text-primary transition-colors">How to Play</Link>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-xs text-muted-foreground hover:text-primary transition-colors">WhatsApp Support</a>
               <Link to="/blog/responsible-gaming-tips-bankroll-management" className="text-xs text-muted-foreground hover:text-primary transition-colors">Responsible Gaming</Link>
             </div>
