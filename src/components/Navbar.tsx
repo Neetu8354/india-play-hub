@@ -5,12 +5,12 @@ import { Menu, X, Gamepad2 } from "lucide-react";
 const WHATSAPP_LINK = "https://wa.link/reddyanna_";
 
 const navItems = [
-  { label: "Home", href: "#home", isAnchor: true },
-  { label: "Cricket Games", href: "#cricket", isAnchor: true },
-  { label: "Casino Games", href: "#casino", isAnchor: true },
-  { label: "Promotions", href: "#promos", isAnchor: true },
+  { label: "Home", href: "/", isAnchor: false },
+  { label: "Cricket Games", href: "/cricket-games", isAnchor: false },
+  { label: "Casino Games", href: "/casino-games", isAnchor: false },
+  { label: "Promotions", href: "/promotions", isAnchor: false },
+  { label: "How to Play", href: "/how-to-play", isAnchor: false },
   { label: "Blog", href: "/blog", isAnchor: false },
-  { label: "FAQ", href: "#faq", isAnchor: true },
 ];
 
 const Navbar = () => {

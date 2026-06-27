@@ -4,6 +4,7 @@ import { Trophy, Users, Zap, Target } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import FAQSection from "@/components/FAQSection";
 import cricketFantasy from "@/assets/cricket-fantasy.jpg";
 
 const WHATSAPP_LINK = "https://wa.link/reddyanna_";
@@ -152,6 +153,8 @@ const CricketGamesPage = () => {
                 </ul>
               </div>
             </div>
+
+            <FAQSection />
           </div>
         </main>
 

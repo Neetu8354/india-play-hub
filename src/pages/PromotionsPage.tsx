@@ -3,6 +3,7 @@ import { Gift, TrendingUp, Calendar, Users } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import FAQSection from "@/components/FAQSection";
 import promoWelcome from "@/assets/promo-welcome.jpg";
 import promoCricket from "@/assets/promo-cricket.jpg";
 import promoDaily from "@/assets/promo-daily.jpg";
@@ -148,6 +149,8 @@ const PromotionsPage = () => {
                 Join BaajiSports Now →
               </a>
             </div>
+
+            <FAQSection />
           </div>
         </main>
 

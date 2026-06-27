@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import FAQSection from "@/components/FAQSection";
 import casinoRoulette from "@/assets/casino-roulette.jpg";
 import casinoSlots from "@/assets/casino-slots.jpg";
 import casinoCards from "@/assets/casino-cards.jpg";
@@ -177,6 +178,8 @@ const CasinoGamesPage = () => {
                 </ul>
               </div>
             </div>
+
+            <FAQSection />
           </div>
         </main>
 

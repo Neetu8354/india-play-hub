@@ -3,6 +3,7 @@ import { UserPlus, Coins, Gamepad2, Award, Shield, Zap } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import FAQSection from "@/components/FAQSection";
 
 const WHATSAPP_LINK = "https://wa.link/reddyanna_";
 
@@ -170,6 +171,8 @@ const HowToPlayPage = () => {
                 BaajiSports promotes responsible gaming. Players must be 18+ years old. Set limits on your spending and play for entertainment. If you need help, contact our support team.
               </p>
             </div>
+
+            <FAQSection />
           </div>
         </main>
 
