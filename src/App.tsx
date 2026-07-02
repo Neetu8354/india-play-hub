@@ -14,6 +14,7 @@ const CricketGamesPage = lazy(() => import("./pages/CricketGamesPage.tsx"));
 const CasinoGamesPage = lazy(() => import("./pages/CasinoGamesPage.tsx"));
 const PromotionsPage = lazy(() => import("./pages/PromotionsPage.tsx"));
 const HowToPlayPage = lazy(() => import("./pages/HowToPlayPage.tsx"));
+const ContactPage = lazy(() => import("./pages/ContactPage.tsx"));
 
 const queryClient = new QueryClient();
 
@@ -31,6 +32,7 @@ const App = () => (
               <Route path="/casino-games" element={<CasinoGamesPage />} />
               <Route path="/promotions" element={<PromotionsPage />} />
               <Route path="/how-to-play" element={<HowToPlayPage />} />
+              <Route path="/contact" element={<ContactPage />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:slug" element={<BlogPost />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
